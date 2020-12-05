@@ -1,0 +1,44 @@
+@font-face {
+	font-family: SourceCodePro-Light;
+	src: url(Fonts/SourceCodePro-Light.ttf);
+}
+
+@font-face {
+	font-family: SourceCodePro-ExtraLight;
+	src: url(Fonts/SourceCodePro-ExtraLight.ttf);
+}
+
+body{
+	background-color:#779CAB;
+}
+
+h1 {
+	font-family: SourceCodePro-Light; 
+	color: #F4F3EE;
+}
+
+h2 {
+	font-family: SourceCodePro-Light; 
+	color: #F4F3EE;
+}
+
+h3 {
+	font-family: SourceCodePro-Light; 
+	color: #F4F3EE;
+}
+
+h4 {
+	font-family: SourceCodePro-Light; 
+	color: #F4F3EE;
+}
+
+hr {
+	border-style: solid;
+	border-color: #F4F3EE;
+	width: 75%;
+}
+
+p {
+	font-family: SourceCodePro-ExtraLight;
+	color: #2C2C2C;
+}
