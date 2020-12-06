@@ -1,3 +1,5 @@
+/*************************** Fonts ***************************/
+
 @font-face {
 	font-family: SourceCodePro-Light;
 	src: url(Fonts/SourceCodePro-Light.ttf);
@@ -8,39 +10,51 @@
 	src: url(Fonts/SourceCodePro-ExtraLight.ttf);
 }
 
+/*************************** Tags ***************************/
+
 body{
 	background-color:#779CAB;
 }
 
 h1 {
-	font-family: SourceCodePro-Light; 
 	color: #F4F3EE;
+	font-family: SourceCodePro-Light; 
 }
 
 h2 {
-	font-family: SourceCodePro-Light; 
 	color: #F4F3EE;
+	font-family: SourceCodePro-Light; 
 }
 
 h3 {
-	font-family: SourceCodePro-Light; 
 	color: #F4F3EE;
+	font-family: SourceCodePro-Light; 
 }
 
 h4 {
+	color: #2C2C2C;
 	font-family: SourceCodePro-Light; 
-	color: #F4F3EE;
-}
-
-hr {
-	border-style: solid;
-	border-color: #F4F3EE;
-	width: 75%;
 }
 
 p {
-	font-family: SourceCodePro-ExtraLight;
 	color: #2C2C2C;
-	width: 60%;
+	font-family: SourceCodePro-ExtraLight;
 	line-height: 6.5mm;
+	width: 60%;
+} 
+
+/*************************** Classes ***************************/
+
+hr.pagebreak {
+	border-color: #F4F3EE;
+	border-style: solid;
+	width: 75%;
+}
+
+hr.sub {
+	border-color: #F4F3EE;
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 4px;
+	width: 55%;
 }
