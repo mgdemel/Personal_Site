@@ -40,7 +40,7 @@ p {
 	color: #2C2C2C;
 	font-family: SourceCodePro-ExtraLight;
 	line-height: 6.5mm;
-	width: 60%;
+	width: 55%;
 } 
 
 /*************************** Classes ***************************/
@@ -56,5 +56,5 @@ hr.sub {
 	border-style: none;
 	border-top-style: dotted;
 	border-width: 4px;
-	width: 55%;
+	width: 60%;
 }
