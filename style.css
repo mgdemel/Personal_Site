@@ -12,22 +12,20 @@
 
 /*************************** Tags ***************************/
 
-body{
-	background-color:#779CAB;
-}
+
 
 h1 {
-	color: #F4F3EE;
+	color: white;
 	font-family: SourceCodePro-Light; 
 }
 
 h2 {
-	color: #F4F3EE;
+	color: white;
 	font-family: SourceCodePro-Light; 
 }
 
 h3 {
-	color: #F4F3EE;
+	color: white;
 	font-family: SourceCodePro-Light; 
 }
 
@@ -45,16 +43,33 @@ p {
 
 /*************************** Classes ***************************/
 
-hr.pagebreak {
-	border-color: #F4F3EE;
-	border-style: solid;
-	width: 70%;
+div.aqua {
+	background-color:#B0C8CC;
 }
 
-hr.sub {
-	border-color: #F4F3EE;
-	border-style: none;
-	border-top-style: dotted;
-	border-width: 4px;
-	width: 60%;
+div.blue {
+	background-color:#c3cfd6;
+
 }
+
+div.dgrey {
+	background-color:#9B9AA0;
+}
+
+
+div.green {
+	background-color:#bcd1c7;
+}
+
+div.lgrey {
+	background-color:#DAD5D1;
+}
+
+div.red {
+	background-color:#DBC5C0;
+}
+
+div.yellow {
+	background-color:#E0D3BB;
+}
+
