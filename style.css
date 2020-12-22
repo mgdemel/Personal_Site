@@ -15,13 +15,12 @@
 body {
 	background-color:#B0C8CC;
 	margin: 0px;
-	width: 100%;
 }
 
 h1 {
 	color: white;
 	font-family: SourceCodePro-Light; 
-	font-size: 62px;
+	font-size: 50px;
 	margin: 0;
 	width: 75%;
 }
@@ -41,7 +40,7 @@ p {
 	font-size: 14px;
 	line-height: 6.5mm;
 	margin: 0px;
-	width: 65%;
+	width: 85%;
 } 
 
 /*************************** Classes ***************************/
@@ -50,19 +49,20 @@ p {
 	background-color:#c3cfd6;
 }
 
-.b_img {
-	height: 30%;
-	width: 30%
-}
-
 .border_left {
 	background-color:#B0C8CC;
 	position: relative;
+	height: 25%;
+	width: 25%;
+	left: 0px;
 }
 
 .border_right {
 	background-color:#B0C8CC;
 	position: relative;
+	height: 25%;
+	width: 25%;
+	left: 75%;
 }
 
 .dgrey {
