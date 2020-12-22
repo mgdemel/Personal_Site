@@ -21,7 +21,6 @@ h1 {
 	color: white;
 	font-family: SourceCodePro-Light; 
 	font-size: 50px;
-	margin: 0;
 	width: 75%;
 }
 
@@ -49,20 +48,25 @@ p {
 	background-color:#c3cfd6;
 }
 
-.border_left {
-	background-color:#B0C8CC;
+.border_div {
 	position: relative;
-	height: 25%;
-	width: 25%;
+	height: 55vh;
+	width: 100vw;
+}
+
+.border_left {
+	position: absolute;
+	height: 300px;
+	width: 300px;
 	left: 0px;
+	bottom: 0px;
 }
 
 .border_right {
-	background-color:#B0C8CC;
-	position: relative;
-	height: 25%;
-	width: 25%;
-	left: 75%;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	margin: 0;
 }
 
 .dgrey {
