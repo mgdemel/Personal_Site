@@ -18,18 +18,12 @@ body {
 	width: 100%;
 }
 
-div {
-	margin: 0px;
-	padding: 20px 0px;
-}
-
 h1 {
 	color: white;
 	font-family: SourceCodePro-Light; 
 	font-size: 62px;
-	margin-bottom: 0px;
-	margin-top: 100px;
-	width: 50%;
+	margin: 0;
+	width: 75%;
 }
 
 h2 {
@@ -52,25 +46,23 @@ p {
 
 /*************************** Classes ***************************/
 
-.aqua {
-	background-color:#B0C8CC;
-}
-
 .blue {
 	background-color:#c3cfd6;
-
 }
 
-.boarder_left {
-	position: absolute;
-	left: 10px;
-	width: 65%;
+.b_img {
+	height: 30%;
+	width: 30%
 }
 
-.boarder_right {
-	position: absolute;
-	right: 10px;
-	width: 65%;
+.border_left {
+	background-color:#B0C8CC;
+	position: relative;
+}
+
+.border_right {
+	background-color:#B0C8CC;
+	position: relative;
 }
 
 .dgrey {
@@ -87,6 +79,11 @@ p {
 
 .red {
 	background-color:#DBC5C0;
+}
+
+.subsection {
+	margin: 0px;
+	padding: 20px 0px;
 }
 
 .yellow {
