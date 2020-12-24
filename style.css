@@ -22,6 +22,7 @@ h1 {
 	font-family: SourceCodePro-Light; 
 	font-size: 50px;
 	width: 75%;
+	margin: 0;
 }
 
 h2 {
@@ -48,25 +49,12 @@ p {
 	background-color:#c3cfd6;
 }
 
-.border_div {
+.hero {
+	background: url("Imgs/border_left.png") left bottom no-repeat, url("Imgs/border_right.png") right top no-repeat;
+	background-size: 25vw 25vw;
 	position: relative;
 	height: 55vh;
 	width: 100vw;
-}
-
-.border_left {
-	position: absolute;
-	height: 300px;
-	width: 300px;
-	left: 0px;
-	bottom: 0px;
-}
-
-.border_right {
-	position: absolute;
-	height: 300px;
-	width: 300px;
-	margin: 0;
 }
 
 .dgrey {
