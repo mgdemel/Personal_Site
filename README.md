@@ -2,4 +2,4 @@
 
 🔗 [Take a look!](https://melissaalasalmi.github.io/Personal_Site/)
 
-Initially only built with HTML, I'm currently spicing it up a bit with a dash of CSS and Javascript! :)
+This is a total work in progress! Initially only built with HTML, I'm currently using this to learn the ways of CSS and Javascript, as well! :)
