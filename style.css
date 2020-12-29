@@ -59,7 +59,7 @@ p {
 table {
 	align-items: center;
 	display: flex;
-	height: 10vh;
+	height: 15vh;
 	justify-content: center;
 	margin: 0;
 	text-align: center;
@@ -83,7 +83,9 @@ table {
 	background: url("Imgs/border_left.png") left bottom no-repeat, url("Imgs/border_right.png") right top no-repeat;
 	background-color:#B0C8CC;
 	background-size: 25vw 25vw;
-	height: 80vh;
+	border-top: 2px dashed white;
+	border-bottom: 2px dashed white;
+	height: 75vh;
 	position: relative;
 	width: 100vw;
 }
