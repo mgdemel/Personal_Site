@@ -13,7 +13,6 @@
 /*************************** Tags ***************************/
 
 body {
-	background-color:#B0C8CC;
 	margin: 0px;
 }
 
@@ -38,6 +37,13 @@ h2 {
 	text-align: center;
 }
 
+h3 {
+	color: white;
+	font-family: SourceCodePro-Light; 
+	font-size: 18px;
+	text-align: center;
+}
+
 p {
 	color: #2C2C2C;
 	font-family: SourceCodePro-ExtraLight;
@@ -49,6 +55,15 @@ p {
 	margin-top: 0px;
 	text-align: center;
 } 
+
+table {
+	align-items: center;
+	display: flex;
+	height: 10vh;
+	justify-content: center;
+	margin: 0;
+	text-align: center;
+}
 
 /*************************** Classes ***************************/
 
@@ -66,8 +81,9 @@ p {
 
 .hero {
 	background: url("Imgs/border_left.png") left bottom no-repeat, url("Imgs/border_right.png") right top no-repeat;
+	background-color:#B0C8CC;
 	background-size: 25vw 25vw;
-	height: 100vh;
+	height: 80vh;
 	position: relative;
 	width: 100vw;
 }
