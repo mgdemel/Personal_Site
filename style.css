@@ -23,9 +23,10 @@ h1 {
 	display: flex;
 	color: white;
 	font-family: SourceCodePro-Light; 
-	font-size: 50px;
-	height: 10vh;
+	font-size: 400%;
+	height: 15vh;
 	justify-content: center;
+	margin: 0;
 	text-align: center;
 }
 
@@ -35,6 +36,7 @@ h2 {
 	font-size: 24px;
 	margin-bottom: 20px;
 	margin-top: 0px;
+	padding-top: 20px;
 	text-align: center;
 }
 
@@ -54,7 +56,6 @@ p {
 	margin-left: 40px;
 	margin-right: 40px;
 	margin-top: 0px;
-	text-align: center;
 } 
 
 table {
@@ -87,7 +88,7 @@ table {
 .hero {
 	background: url("Imgs/rocket.png") left, top, no-repeat;
 	background-size: 9vw 9vw;
-	height: 30vh;
+	height: 25vh;
 	position: relative;
 	width: 100vw;
 }
@@ -97,8 +98,10 @@ table {
 }
 
 .subsection {
-	margin: 0px;
-	padding: 20px 0px;
+	height: 25vh;
+	justify-content: left;
+	text-align: left;
+	width: 100vw;
 }
 
 .yellow {
