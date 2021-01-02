@@ -48,7 +48,6 @@ h3 {
 }
 
 p {
-	color: white;
 	font-family: SourceCodePro-ExtraLight;
 	font-size: 14px;
 	line-height: 6.5mm;
@@ -67,21 +66,28 @@ table {
 }
 
 /*************************** Classes ***************************/
-
-.blue {
+.bg_blue {
 	background-color:#a8d0e6;
 }
 
-.colbalt {
+.bg_colbalt {
 	background-color:#374785;
 }
 
-.dblue {
+.bg_dblue {
 	background-color:#24305e;
 }
 
-.dgrey {
+.bg_dgrey {
 	background-color:lightgray;
+}
+
+.bg_red {
+	background-color:#f76c6c;
+}
+
+.bg_yellow {
+	background-color:#f8e9a1;
 }
 
 .hero {
@@ -92,8 +98,14 @@ table {
 	width: 100vw;
 }
 
-.red {
-	background-color:#f76c6c;
+.left_textarea {
+	width: 40vw;
+	padding-left: 10vw;
+}
+
+.right_textarea {
+	width: 40vw;
+	padding-left: 50vw;
 }
 
 .sub_nutshell {
@@ -102,7 +114,6 @@ table {
 	height: 50vh;
 	position: relative;
 	width: 100vw;
-
 }
 
 .sub_highlights {
@@ -145,18 +156,10 @@ table {
 	width: 100vw;
 }
 
-.lefttextarea {
-	width: 40vw;
-	padding-left: 10vw;
-
+.txt_dark {
+	color: #24305e;
 }
 
-.righttextarea {
-	width: 40vw;
-	padding-left: 50vw;
+.txt_light {
+	color: white;
 }
-
-.yellow {
-	background-color:#f8e9a1;
-}
-
