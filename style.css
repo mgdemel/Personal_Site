@@ -13,21 +13,14 @@
 /*************************** Tags ***************************/
 
 body {
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 0;
+	margin: 0;
 }
 
 h1 {
-	align-items: center;
-	display: flex;
 	color: white;
 	font-family: SourceCodePro-Light; 
 	font-size: 400%;
-	height: 15vh;
-	justify-content: center;
-	margin: 0;
-	text-align: center;
+	opacity: 100;
 }
 
 h2 {
@@ -71,15 +64,11 @@ table {
 }
 
 .bg_colbalt {
-	background-color:#374785;
+	background-color:rgba(55, 71, 133, 0.97);
 }
 
 .bg_dblue {
 	background-color:#24305e;
-}
-
-.bg_dgrey {
-	background-color:lightgray;
 }
 
 .bg_red {
@@ -90,10 +79,24 @@ table {
 	background-color:#f8e9a1;
 }
 
+.container {
+		align-items: center;
+		border-radius: 27px;
+		display: flex;
+		height: 17vh;
+		justify-content: center;
+		margin-left: 20.7%;
+		margin-top: 10%;
+		position: absolute;
+		text-align: center;
+		width: 60vw;
+}
+
 .hero {
 	background: url("Imgs/rocket.png") left, top, no-repeat;
+	background-color:#f76c6c;
 	background-size: 9vw 9vw;
-	height: 25vh;
+	height: 65vh;
 	position: relative;
 	width: 100vw;
 }
@@ -112,6 +115,13 @@ table {
 	background: url("Imgs/nutshell.png") no-repeat;
 	background-size: 100vw 50vh;
 	height: 50vh;
+	position: relative;
+	width: 100vw;
+}
+
+.sub_start {
+	background-size: 100vw 50vh;
+	height: 32vh;
 	position: relative;
 	width: 100vw;
 }
