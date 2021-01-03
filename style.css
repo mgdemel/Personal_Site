@@ -19,14 +19,14 @@ body {
 h1 {
 	color: white;
 	font-family: SourceCodePro-Light; 
-	font-size: 400%;
+	font-size: 4em;
 	opacity: 100;
 }
 
 h2 {
 	color: white;
 	font-family: SourceCodePro-Light; 
-	font-size: 24px;
+	font-size: 2em;
 	margin-bottom: 20px;
 	margin-top: 0px;
 	padding-top: 10vh;
@@ -36,7 +36,7 @@ h2 {
 h3 {
 	color: white;
 	font-family: SourceCodePro-Light; 
-	font-size: 18px;
+	font-size: 1.5em;
 	text-align: center;
 }
 
@@ -68,7 +68,7 @@ table {
 }
 
 .bg_dblue {
-	background-color:#24305e;
+	background-color:rgba(31, 44, 94, 1);
 }
 
 .bg_red {
@@ -101,6 +101,10 @@ table {
 	width: 100vw;
 }
 
+.icon {
+	width: 20vw;
+}
+
 .left_textarea {
 	width: 40vw;
 	padding-left: 10vw;
@@ -111,57 +115,13 @@ table {
 	padding-left: 50vw;
 }
 
-.sub_nutshell {
-	background: url("Imgs/nutshell.png") no-repeat;
-	background-size: 100vw 50vh;
-	height: 50vh;
-	position: relative;
-	width: 100vw;
+.sub {
+	height: 100vh;
 }
 
 .sub_start {
 	background-size: 100vw 50vh;
 	height: 32vh;
-	position: relative;
-	width: 100vw;
-}
-
-.sub_highlights {
-	background: url("Imgs/highlights.png") no-repeat;
-	background-size: 100vw 50vh;
-	height: 50vh;
-	position: relative;
-	width: 100vw;
-}
-
-.sub_hive {
-	background: url("Imgs/hive.png") no-repeat;
-	background-size: 100vw 50vh;
-	height: 50vh;
-	position: relative;
-	width: 100vw;
-}
-
-.sub_data {
-	background: url("Imgs/data.png") no-repeat;
-	background-size: 100vw 50vh;
-	height: 50vh;
-	position: relative;
-	width: 100vw;
-}
-
-.sub_work {
-	background: url("Imgs/work.png") no-repeat;
-	background-size: 100vw 50vh;
-	height: 50vh;
-	position: relative;
-	width: 100vw;
-}
-
-.sub_edu {
-	background: url("Imgs/edu.png") no-repeat;
-	background-size: 100vw 50vh;
-	height: 50vh;
 	position: relative;
 	width: 100vw;
 }
