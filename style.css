@@ -27,9 +27,7 @@ h2 {
 	color: white;
 	font-family: SourceCodePro-Light; 
 	font-size: 2em;
-	margin-bottom: 20px;
-	margin-top: 0px;
-	padding-top: 10vh;
+	padding-top: 15vh;
 	text-align: center;
 }
 
@@ -45,6 +43,7 @@ p {
 	font-size: 14px;
 	line-height: 6.5mm;
 	margin: 0;
+	padding-top: 20vh;
 	text-align: center;
 	
 } 
@@ -102,28 +101,40 @@ table {
 }
 
 .icon {
-	width: 20vw;
+	width: 15vw;
+}
+
+.left_icon {
+	padding-left: 10vw;
+	padding-top: 15vh;
+	position: absolute;
 }
 
 .left_textarea {
+	margin-bottom: 30px;
+	margin-top: 0px;
+	padding-left: 5vw;
+	position: absolute;
 	width: 40vw;
-	padding-left: 10vw;
+}
+
+.right_icon {
+	padding-left: 70vw;
+	padding-top: 15vh;
+	position: absolute;
 }
 
 .right_textarea {
-	width: 40vw;
+	margin-bottom: 30px;
+	margin-top: 0px;
 	padding-left: 50vw;
+	position: absolute;
+	width: 40vw;
 }
 
 .sub {
-	height: 100vh;
-}
-
-.sub_start {
-	background-size: 100vw 50vh;
-	height: 32vh;
+	height: 50vh;
 	position: relative;
-	width: 100vw;
 }
 
 .txt_dark {
